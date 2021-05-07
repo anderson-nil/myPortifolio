@@ -1,0 +1,91 @@
+section.sobre .itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50%;
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    section .itens {
+        width: 83.33333%;
+        margin-left: 8.33333%;
+    }
+}
+
+@media (max-width: 991px) {
+    section .itens {
+        display: block;
+    }
+    section .itens .foto {
+        margin: 0 0 30px;
+    }
+}
+
+section .itens .iconeLapis {
+    order: 1;
+}
+
+section .itens .iconeCodigo {
+    order: 2;
+}
+
+section .itens .foto {
+    order: 3;
+}
+
+section .itens .iconeCoracao {
+    order: 4;
+}
+
+section .itens .iconeCompartilhar {
+    order: 5;
+}
+
+.textos {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .textos {
+        float: left;
+        width: 66.66667%;
+    }
+}
+
+@media (min-width: 768px) {
+    .textos {
+        margin-left: 16.66667%;
+    }
+}
+
+.textos .botaoDescricao {
+    display: table;
+    margin: 30px auto;
+    color: rgb(109, 105, 105);
+    border-color: rgb(94, 90, 90);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.cabecalho {
+    background-image: url("../../public/fundo-slide-pagina-inicial.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sobre {
+    border: solid tomato 1px;
+}

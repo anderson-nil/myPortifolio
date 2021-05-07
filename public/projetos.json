@@ -1,0 +1,13 @@
+{
+    "projects":
+    [   
+      {
+        "name": "CALCULADORA",
+        "createdBy": "Anderson Andrade",
+        "completedOn": "05 de abril de 2021",
+        "categories": ["Aplicação Web", "Web Design”, “Aplicativo Móvel"],
+        "link": "https://github.com/anderson-nil/web/tree/main/calculadora",
+        "description": "Calculadora com funções básicas"
+      }
+    ]
+  }
